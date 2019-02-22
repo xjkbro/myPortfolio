@@ -2,35 +2,63 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-
-.banner {
-    text-align: right;
-    padding-left: 10px;
-    position: relative;
-    margin: 0 auto;
-    }
-
-.banner > h1 { 
+header {
+    background-color: aquamarine;
+    height: 70px;
+    overflow: hidden;
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+body {
+    margin-top: 70px;
+    
+}
+ul {
+    list-style-type: none;
+    margin:0px 0px 0px 0px;
+}
+h1 { 
     color: coral;
-    background-color: black;
-    padding-left: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
     font-family: Lobster, Cursive;
-    margin: 0px;
-    width: 50%;
-    text-align: left;
+    padding-top: 10px;
+    padding-left: 20px;
+    float:left;
+    text-decoration: none;
 }
-.navigation {
- margin-top: -30px;
- color: blue;
+
+li {
+    background-color: #dddddd;
+    text-align: center;
+    padding-top: 25px;
+    padding-right: 10px;
+    color: blue;
+    width: 100px;
+    height: 70px;
+    float: right;
+    font-family: Lato;
+    font-size: 14px;
+    
+}
+body {
+    background-color: darkgoldenrod;
 }
 #about_me {
+    
+    margin: 50px auto;
     color: red; 
     width: 500px;
     padding: 10px;
-    text-align: center;
-    position: relative;
     background-color: blueviolet;
+}
+#contact {
+    
+    margin: 50px auto;
+    color: red; 
+    width: 500px;
+    padding: 10px;
+    background-color: blueviolet;
+    margin-top: 1000px;
 }
