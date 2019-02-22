@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Lobster|Lobster+Two:400,400i,700,700i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    text-align: right;
+    padding-left: 10px;
+    position: relative;
+    margin: 0 auto;
+    }
+
+.banner > h1 { 
+    color: coral;
+    background-color: black;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: Lobster, Cursive;
+    margin: 0px;
+    width: 50%;
+    text-align: left;
+}
+.navigation {
+ margin-top: -30px;
+ color: blue;
+}
+#about_me {
+    color: red; 
+    width: 500px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    background-color: blueviolet;
+}
