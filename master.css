@@ -43,15 +43,21 @@ li {
     
 }
 body {
+    margin-top: 80px;
     background-color: darkgoldenrod;
 }
+.info {
+
+}
 #about_me {
-    
     margin: 50px auto;
     color: red; 
     width: 500px;
     padding: 10px;
     background-color: blueviolet;
+
+    border: 2px solid white;
+    border-radius: 10px;
 }
 #contact {
     

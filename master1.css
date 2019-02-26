@@ -1,0 +1,60 @@
+/* Color Palette https://www.colourlovers.com/palette/189189/.infrared */
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Lobster|Lobster+Two:400,400i,700,700i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+body header {
+    background-color: #444;
+    width: 100%;
+    margin: auto;
+    height: 70px;
+    position: fixed;
+    padding-top: 20px;
+}
+body h1 {
+    color:rgb(214, 89, 39);
+    font-family: Lobster Two;
+    padding-left:10px;
+    float:left;
+    width: 65%;
+    
+}
+body{
+    margin-top: 0;
+
+}
+#navbar{
+    float:right;
+    width:35%;
+    box-align: right;
+    
+}
+body a {
+    background-color: #dddddd;
+    padding: 4px;
+    box-align: right;
+    margin:0px;
+}
+#info {
+    margin: auto;
+    width: 80%;
+}
+#about_me{
+    margin:20px;
+    padding:20px;
+    border: 2px dotted #ddd;
+}
+#skills {
+    margin: 30%;
+}
+#skills li {
+    text-transform: uppercase;
+    list-style-type: none;
+}
