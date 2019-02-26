@@ -3,55 +3,108 @@
     <head>
         <meta charset="utf-8">
         <title>Jason-Kyle De Lara</title>
-        <link rel="stylesheet" href="master1.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <article>
-            <header>
-                <h1>Jason-Kyle De Lara</h1>
-                <section class="navbar">
-                    <a href="#home">Home</a>
-                    <a href="#about_me">About Me</a>
-                    <a href="#education">Education</a>
-                    <a href="#skills">Skills</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#contasct">Contact</a>
-                </section>
-            </header>
-        </article>
+        <header>
+            <h1>Jason-Kyle De Lara</h1>
+            <nav id="navbar">
+                <a href="#">Home</a>
+                <a href="#about">About</a>
+                <!--<a href="#education">Education</a>-->
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="files/resume.pdf">Resume</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
 
-        <article class="info">
+        <section id = "showcase">
+            <h1>Jason-Kyle De Lara</h1>
+            <p>Creativity is most important.</p>
+        </section>
+        <div id= "socialbar">
+            <ul>
+            <!--
+                <li><img src="git.png"></li>
+                <li><img src="linkedin.png"></li>
+                <li><img src="insta.png"></li>
+                <li><img src="twitter.png"></li>
+                <li><img src="facebook.png"></li>
+            -->
+                
+            <li><a href="#">Gh</a></li>
+            <li><a href="#">Li</a></li>
+            <li><a href="#">Ig</a></li>
+            <li><a href="#">Tw</a></li>
+            <li><a href="#">Fb</a></li>
+            </ul>
+        </div>
+
+        <section class="info">
+            <div class="container">
+                
+
+                <div class="txt" id="about">
+                    <h1>About</h1>
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui repudiandae non facere adipisci magni. Ex, facere perspiciatis id accusamus itaque modi sint obcaecati nesciunt tenetur consequatur veritatis autem blanditiis animi? </p>
+                </div>
             
-            <section id="about_me">
-                <p> An undergraduate student attending University of Nevada Las Vegas to obtain a Bachelor of Science in Computer Science. A well-motivated, organized individual willing to put the time and effort to work in a fast-paced environment, to master new tools and skills, and to work efficiently when given multiple tasks. </p>
-            </section>
+                
+                <!--
+                <div id="education">
+                    <p></p>
+                </div>
+                -->
             
-            <section id="education">
-                <p></p>
-            </section>
-            
-            <section id="skills">
-                <p>Here are a list of skills I have: </p>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>JavaScript</li>
-                    <li>C++</li>
-                    <li>Java</li>
-                    <li>C#</li>
-                    <li>Swift</li>
-                    <li>Unity</li>
-                </ul> 
-            </section>
+                <div class="txt" id="skills">
+                    <h1>Skills</h1>
+                    <!--<p>Here are a list of skills I have: </p>-->
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>C++</li>
+                        <li>Java</li>
+                        <li>C#</li>
+                        <li>Swift</li>
+                        <li>Unity</li>
+                    </ul> 
+                </div>
 
-            <section id="projects">
-                <p> Here are the projects that I worked on: </p>
-            </section>
+                <div class="txt" id="projects">
+                    <h1>Projects</h1>
+                    <!--<p> Here are the projects that I worked on: </p>-->
+                </div>
+                
+                <div class="txt" id="contact">
+                    <h1>Contact</h1>
+                    <p> Feel Free to contact me if you'd like to work with me or have any inquiries about my work. </p>
+                    <form class ="contactform">
+                        <div class="form-group">
+                            <label>Name: </label>
+                            <input type="text" name="name">
+                        </div>
+                        <div class="form-group">
+                            <label>Email: </label>
+                            <input type="text" name="email">
+                        </div>
+                        <div class="form-group">
+                                <label>Subject: </label>
+                                <input type="text" name="subject">
+                        </div>
+                        <div class="form-group">
+                            <label>Message: </label>
+                            <textarea name="message"></textarea>
+                        </div>        
+                        <input class="button" type="Submit" value="Send" name="">
+                    </form>
 
-            <section id="contact">
-                <p> Feel Free to contact me if you'd like to work with me or have any inquiries about my work. </p>
-            </section>
-
-        </article>
+            </div>
+        </section>
+        <!--<div style="margin:1080px;"></div>-->
     </body>
+    <footer>
+        <p>Copyright &copy; 2019 JKStudios llc. </p>
+    </footer>
 </html>
