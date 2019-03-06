@@ -16,6 +16,8 @@ header {
     height: 60px;
     position:fixed;
     z-index: 3;
+    box-shadow: 3px 3px 5px #222;
+
 }
 header h1 {
     margin: 10px;
@@ -36,6 +38,8 @@ header a {
     color: #333; 
     font-size: 20px;
     padding: 20px;
+    box-shadow: 3px 3px 3px #222;
+
 }
 header a:hover{
     background-color: #f4f4f4;
@@ -70,10 +74,16 @@ header a:hover{
     text-shadow: 4px 4px 8px grey;
 
 }
-#container{
-    box-shadow: 4px 12px grey;
+.container{
+    box-shadow: 4px 4px 12px grey;
     background-color: #f4f4f4;
     width: 90%;
+    margin: auto;
+    box-shadow: 5px 5px 8px #222;
+    padding-top: 25px;
+    padding-bottom: 300px;
+    background-color: #f4f4f4;
+    width: 75%;
     margin: auto;
 }
 .info{
@@ -81,25 +91,17 @@ header a:hover{
     font-size: 12px;
     width:100%;
     background-color: #333;
-    box-shadow: 5px 5px 3px #222;
+    padding-bottom: 10px;
 
 
 }
 .txt {
     padding: 50px;
 }
-.container{
-    padding-top: 25px;
-    padding-bottom: 300px;
-    background-color: #f4f4f4;
-    width: 75%;
-    margin: auto;
 
-    box-shadow: 3px 3px 10px #222;
-}
 #socialbar ul{
     list-style-type: none;
-    opacity: ;
+    opacity: 75%;
 }
 #socialbar li {
     padding: 10px;
@@ -109,14 +111,19 @@ header a:hover{
 
 }
 #socialbar li a {
-    font-family: Helvetica, sans-serif;
-    font-size: 20px;
-    width: 30px;
-    height: 30px;
     margin: auto;
     color: #f4f4f4;
     text-decoration: none;
     text-align: center;
+    
+
+}
+#socialbar li img {
+
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    color: #f4f4f4;
     
 
 }
@@ -128,28 +135,38 @@ header a:hover{
 .info #about {
     /*border: 1px solid black;*/
     padding: 75px;
-    width: 75%;
     height: 300px;
-    margin: auto;
+    
     border: 50px;
-    text-align: center;
+    text-align: left;
+    
 
 }
-.info .class h1{
-    text-align: center;
-    padding: 10px 10px 50px 10px;
+.info #about h1, p {
+    text-align: left;
+    padding: 10px;
 }
 .info #about p {
-    padding: 50px;
+    line-height: 15px;
+    float: left;
+}
+.info #about img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    position: relative;
+    top: -50px;
+    float: right;
 }
 
 .info #skills{
     padding: 65px;
     height: 300px;
+    box-sizing:content-box ;
 }
 .info #skills h1 {
-    text-align: center;
-    padding: 10px 10px 50px 10px;
+    text-align: right;
+    padding: 10px;
 }
 .info #skills p{
     text-align: center;
@@ -164,38 +181,65 @@ header a:hover{
     padding: 20px;
     position: relative;
     margin-right: 20px;
-    /* top: 25px; */
     line-height: 80px;
     background-color: coral;
     border: 20px;
-    z-index: 1;
+    z-index: 2;
 }
 .info #skills li:hover {
     background-color: #333;;
     color: coral;
 }
 
-
 .info #projects{
     padding: 65px;
     height: 300px;
+    box-sizing: content-box;
+
 }
 .info #projects h1 {
-    text-align: center;
+    text-align: left;
     padding: 10px 10px 50px 10px;
 }
 .info #projects p{
     text-align: center;
 }
+.info #projects #projcontainer{
+    display: inline-block;
+    margin: auto;
+}
+.info #projects #projcontainer img{
+    width: 33%;
+    object-fit: scale-down;
+    padding: 15px;
+    -webkit-border-radius: 24px;
+
+
+}
+/*
+
+.info #projects #projcontainer a{
+    opacity: .5;
+    text-decoration: none;
+}
+
+.info #projects #projcontainer a.hover{
+    opacity: 1;
+    text-decoration: none;
+    color: black;
+}
+
+*/
 
 
 
 .info #contact{
     padding: 65px;
     height: 300px;
+    box-sizing: content-box;
 }
 .info #contact h1 {
-    text-align: center;
+    text-align: right;
     padding: 10px 10px 50px 10px;
 }
 .info #contact p {
@@ -214,9 +258,11 @@ footer{
     background-color: #333;
     margin: auto;
     padding: 100px;
+    z-index: 1;
 }
 footer p{
     text-align: center;
     color: #f4f4f4;
     font-family: Helvetica;
+    font-size: 10px;
 }
